@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="container1">
+            <h1>Listas de tareas</h1>
+            <div class="tareasList">
+                <form>
+                    <input type="text" placeholder="Agrega tu tarea..">
+                    <select class="seleccionador">
+                        <option></option>
+                        <option>Urgente</option>
+                        <option>En término</option>
+                        <option>Suspendido</option>
+                    </select>
+                    <button class="btn-add">+</button>
+                </form>
+            </div>
+        </div>
+            
+        <div class="container2">    
+            <div class="li-container">
+                <ul></ul>
+            </div>
+            <div class="empty">
+                <p>No tiene tareas pendientes.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
